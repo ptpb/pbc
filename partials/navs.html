@@ -1,0 +1,9 @@
+<ul class="nav navbar-nav">
+  <li ng-class="{ active:nav.is('render') } " role="presentation"><a href ng-click="nav.set('render')">Render</a></li>
+  <li ng-class="{ active:nav.is('highlight') }" role="presentation"><a href ng-click="nav.set('highlight')">Highlight</a></li>
+</ul>
+<div class="navbar-form navbar-left">
+  <input type="text" class="form-control" ng-model="url">
+  <button ng-click="nav.post()" class="btn btn-default">post</button>
+  <button ng-click="nav.get()" class="btn btn-default">get</button>
+</div>

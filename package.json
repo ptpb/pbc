@@ -1,0 +1,9 @@
+{
+    "name": "pbc",
+    "description": "pb client",
+    "license": "GPL3",
+    "devDependencies": {
+        "angular": "1.3.x",
+        "angular-route": "1.3.x"
+    }
+}
